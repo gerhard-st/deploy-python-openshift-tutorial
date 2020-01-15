@@ -11,7 +11,7 @@
 
 #ENTRYPOINT ["python3"]
 #CMD ["helloworld.py"]
-FROM s390x/bash
+FROM bash
 
 ENTRYPOINT echo "Hello world"
 
